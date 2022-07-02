@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isPositiveZero;
+})();
 })();
 </script>
 ```
@@ -87,6 +89,7 @@ bool = isPositiveZero( -0.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isPositiveZero( 0.0 );
 // returns true
@@ -103,6 +106,7 @@ bool = isPositiveZero( -1.0 );
 bool = isPositiveZero( NaN );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -198,7 +202,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero/tree/umd
+[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
