@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-positive-zero/tags). For example,
+
+```javascript
 import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.1.0-esm/index.mjs';
 ```
 
@@ -73,7 +78,7 @@ bool = isPositiveZero( -0.0 );
 <body>
 <script type="module">
 
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.1.0-esm/index.mjs';
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
 
 var bool = isPositiveZero( 0.0 );
 // returns true
