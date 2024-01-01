@@ -35,14 +35,30 @@ limitations under the License.
 
 > Test if a double-precision floating-point numeric value is positive zero.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-assert-is-positive-zero
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
+var isPositiveZero = require( '@stdlib/math-base-assert-is-positive-zero' );
 ```
 
 #### isPositiveZero( x )
@@ -67,13 +83,8 @@ bool = isPositiveZero( -0.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
+```javascript
+var isPositiveZero = require( '@stdlib/math-base-assert-is-positive-zero' );
 
 var bool = isPositiveZero( 0.0 );
 // returns true
@@ -89,10 +100,6 @@ bool = isPositiveZero( -1.0 );
 
 bool = isPositiveZero( NaN );
 // returns false
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -122,7 +129,7 @@ bool = isPositiveZero( NaN );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -139,7 +146,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -184,7 +191,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero/tree/esm
+[@stdlib/math/base/assert/is-negative-zero]: https://github.com/stdlib-js/math-base-assert-is-negative-zero
 
 <!-- </related-links> -->
 
