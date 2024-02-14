@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.2.0-esm/index.mjs';
 ```
 
 #### isPositiveZero( x )
@@ -73,7 +73,7 @@ bool = isPositiveZero( -0.0 );
 <body>
 <script type="module">
 
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@esm/index.mjs';
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.2.0-esm/index.mjs';
 
 var bool = isPositiveZero( 0.0 );
 // returns true
