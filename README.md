@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-positive-zero/tags). For example,
+
+```javascript
 import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.2.1-deno/mod.js';
 ```
 
@@ -68,7 +73,7 @@ bool = isPositiveZero( -0.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@v0.2.1-deno/mod.js';
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-positive-zero@deno/mod.js';
 
 var bool = isPositiveZero( 0.0 );
 // returns true
